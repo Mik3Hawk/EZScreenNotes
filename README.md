@@ -29,6 +29,6 @@ Ce script Python utilise Selenium pour automatiser la capture d'écran d'un diap
 
 ### Configuration
 1. Modifiez l'URL du site dans le script `url_du_site = "https://Votre.site.com"`
-2. Personnalisez le nom du fichier de sortie PDF si nécessaire `code`
+2. Personnalisez le nom du fichier de sortie PDF si nécessaire `nombre_max_screenshots = 100`
 3. Personnalisez le nombre maximum de captures d'écran si nécéssaire `nombre_max_screenshots = 100`
 4. Ajustez les dimensions du clic en bas à droite de l'écran selon les besoins `pyautogui.click(largeur_ecran - 650, hauteur_ecran - 140)`
