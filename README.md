@@ -1,6 +1,6 @@
-# Automatisation de la capture d'écran et création de PDF POUR LES NOTES DE COURS PROGRAMMATION WEB
+# Automatisation de la capture d'écran et création de PDF pour les notes de cours de Programmation Web
 
--Par [Noah Tremblay](https://github.com/Mik3Hawk), Janvier 2024
+- Par [Noah Tremblay](https://github.com/Mik3Hawk), Janvier 2024
 
 Ce script Python utilise Selenium pour automatiser la capture d'écran d'un diaporama Web et ReportLab pour créer un PDF à partir des captures d'écran. Il est conçu pour prendre des captures d'écran jusqu'à ce que deux captures successives soient identiques.
 
@@ -28,7 +28,7 @@ Ce script Python utilise Selenium pour automatiser la capture d'écran d'un diap
    pip install reportlab
 
 ### Configuration
-1. Modifiez l'URL du site dans le script `code` (main() - url_du_site)
-2. Personnalisez le nom du fichier de sortie PDF si nécessaire `code` (main() - output_pdf).
-3. Ajustez les dimensions du clic en bas à droite de l'écran selon les besoins `code` (prendre_screenshot() - pyautogui.click()).
-
+1. Modifiez l'URL du site dans le script `url_du_site = "https://Votre.site.com"`
+2. Personnalisez le nom du fichier de sortie PDF si nécessaire `code`
+3. Personnalisez le nombre maximum de captures d'écran si nécéssaire `nombre_max_screenshots = 100`
+4. Ajustez les dimensions du clic en bas à droite de l'écran selon les besoins `pyautogui.click(largeur_ecran - 650, hauteur_ecran - 140)`
