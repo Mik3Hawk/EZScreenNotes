@@ -49,11 +49,14 @@ def images_to_pdf(images, output_pdf):
     # Boucle pour ajouter les images au PDF, deux par page
     for i in range(0, len(images), 2):
         pdf.showPage()
-        draw_image(pdf, images[i], 0, 0)
 
-        # Ajout de la deuxième image si disponible
+        # Image 2
+        if i < len(images):
+            draw_image(pdf, images[i], 0, calculate_height(images[i]))
+
+        # Image 1
         if i + 1 < len(images):
-            draw_image(pdf, images[i + 1], 0, calculate_height(images[i]))
+            draw_image(pdf, images[i + 1], 0, 0)
 
     # Enregistrement du PDF final
     pdf.save()
