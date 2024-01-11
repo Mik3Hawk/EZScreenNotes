@@ -23,6 +23,7 @@ Ce script Python utilise Selenium pour automatiser la capture d'écran d'un diap
 2. Installez les modules Python requis en exécutant les commandes suivantes dans votre terminal ou invite de commandes :
 
    ```bash
+   pip install pyautogui
    pip install selenium
    pip install Pillow
    pip install reportlab
