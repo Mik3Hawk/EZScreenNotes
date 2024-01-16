@@ -11,8 +11,10 @@ Ce script Python utilise Selenium pour automatiser la capture d'écran d'un diap
 2. **Capture d'écran :** Il simule un clic en bas à droite de l'écran pour déclencher une capture d'écran.
 
 3. **Vérification :** Il compare chaque nouvelle capture d'écran à la précédente. La boucle s'arrête lorsque deux captures successives sont identiques.
+   
+4. **Tri manuel :** L'utilisateur supprime manuellement les captures inutiles avant la création du pdf.
 
-4. **Conversion en PDF :** Les captures d'écran sont converties en un fichier PDF, deux par page.
+5. **Conversion en PDF :** Les captures d'écran sont converties en un fichier PDF.
 
 ## Comment utiliser
 
