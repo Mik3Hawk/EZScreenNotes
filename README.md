@@ -1,4 +1,4 @@
-# Automatisation de la capture d'écran et création de PDF pour les notes de cours de Programmation Web
+# Automatisation de la capture d'écran et création de PDF pour les notes de cours
 
 - Par [Noah Tremblay](https://github.com/Mik3Hawk), Janvier 2024
 
